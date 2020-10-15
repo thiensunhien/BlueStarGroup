@@ -1,0 +1,17 @@
+C:\Users\Ray\source\repos\ERPSolution\ERPSolution\bin\Debug\netcoreapp3.1\ERPSolution.exe
+C:\Users\Ray\source\repos\ERPSolution\ERPSolution\bin\Debug\netcoreapp3.1\ERPSolution.deps.json
+C:\Users\Ray\source\repos\ERPSolution\ERPSolution\bin\Debug\netcoreapp3.1\ERPSolution.runtimeconfig.json
+C:\Users\Ray\source\repos\ERPSolution\ERPSolution\bin\Debug\netcoreapp3.1\ERPSolution.runtimeconfig.dev.json
+C:\Users\Ray\source\repos\ERPSolution\ERPSolution\bin\Debug\netcoreapp3.1\ERPSolution.dll
+C:\Users\Ray\source\repos\ERPSolution\ERPSolution\bin\Debug\netcoreapp3.1\ERPSolution.pdb
+C:\Users\Ray\source\repos\ERPSolution\ERPSolution\obj\Debug\netcoreapp3.1\ERPSolution.csprojAssemblyReference.cache
+C:\Users\Ray\source\repos\ERPSolution\ERPSolution\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Ray\source\repos\ERPSolution\ERPSolution\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Ray\source\repos\ERPSolution\ERPSolution\obj\Debug\netcoreapp3.1\ERPSolution_MarkupCompile.cache
+C:\Users\Ray\source\repos\ERPSolution\ERPSolution\obj\Debug\netcoreapp3.1\ERPSolution_MarkupCompile.lref
+C:\Users\Ray\source\repos\ERPSolution\ERPSolution\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Ray\source\repos\ERPSolution\ERPSolution\obj\Debug\netcoreapp3.1\ERPSolution.g.resources
+C:\Users\Ray\source\repos\ERPSolution\ERPSolution\obj\Debug\netcoreapp3.1\ERPSolution.AssemblyInfoInputs.cache
+C:\Users\Ray\source\repos\ERPSolution\ERPSolution\obj\Debug\netcoreapp3.1\ERPSolution.AssemblyInfo.cs
+C:\Users\Ray\source\repos\ERPSolution\ERPSolution\obj\Debug\netcoreapp3.1\ERPSolution.dll
+C:\Users\Ray\source\repos\ERPSolution\ERPSolution\obj\Debug\netcoreapp3.1\ERPSolution.pdb
