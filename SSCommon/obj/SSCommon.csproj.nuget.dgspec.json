@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\SSSolution\\SSCommon\\SSCommon.csproj": {}
+    "D:\\Project\\BlueStarGroup\\SSCommon\\SSCommon.csproj": {}
   },
   "projects": {
-    "D:\\Project\\SSSolution\\SSCommon\\SSCommon.csproj": {
+    "D:\\Project\\BlueStarGroup\\SSCommon\\SSCommon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\SSSolution\\SSCommon\\SSCommon.csproj",
+        "projectUniqueName": "D:\\Project\\BlueStarGroup\\SSCommon\\SSCommon.csproj",
         "projectName": "SSCommon",
-        "projectPath": "D:\\Project\\SSSolution\\SSCommon\\SSCommon.csproj",
+        "projectPath": "D:\\Project\\BlueStarGroup\\SSCommon\\SSCommon.csproj",
         "packagesPath": "C:\\Users\\Ray\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\SSSolution\\SSCommon\\obj\\",
+        "outputPath": "D:\\Project\\BlueStarGroup\\SSCommon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

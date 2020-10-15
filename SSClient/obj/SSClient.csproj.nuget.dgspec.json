@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\SSSolution\\SSClient\\SSClient.csproj": {}
+    "D:\\Project\\BlueStarGroup\\SSClient\\SSClient.csproj": {}
   },
   "projects": {
-    "D:\\Project\\SSSolution\\SSClient\\SSClient.csproj": {
+    "D:\\Project\\BlueStarGroup\\SSClient\\SSClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\SSSolution\\SSClient\\SSClient.csproj",
+        "projectUniqueName": "D:\\Project\\BlueStarGroup\\SSClient\\SSClient.csproj",
         "projectName": "SSClient",
-        "projectPath": "D:\\Project\\SSSolution\\SSClient\\SSClient.csproj",
+        "projectPath": "D:\\Project\\BlueStarGroup\\SSClient\\SSClient.csproj",
         "packagesPath": "C:\\Users\\Ray\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\SSSolution\\SSClient\\obj\\",
+        "outputPath": "D:\\Project\\BlueStarGroup\\SSClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,11 +32,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Project\\SSSolution\\SSCommon\\SSCommon.csproj": {
-                "projectPath": "D:\\Project\\SSSolution\\SSCommon\\SSCommon.csproj"
+              "D:\\Project\\BlueStarGroup\\SSCommon\\SSCommon.csproj": {
+                "projectPath": "D:\\Project\\BlueStarGroup\\SSCommon\\SSCommon.csproj"
               },
-              "D:\\Project\\SSSolution\\SSServer\\SSServer.csproj": {
-                "projectPath": "D:\\Project\\SSSolution\\SSServer\\SSServer.csproj"
+              "D:\\Project\\BlueStarGroup\\SSServer\\SSServer.csproj": {
+                "projectPath": "D:\\Project\\BlueStarGroup\\SSServer\\SSServer.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "D:\\Project\\SSSolution\\SSCommon\\SSCommon.csproj": {
+    "D:\\Project\\BlueStarGroup\\SSCommon\\SSCommon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\SSSolution\\SSCommon\\SSCommon.csproj",
+        "projectUniqueName": "D:\\Project\\BlueStarGroup\\SSCommon\\SSCommon.csproj",
         "projectName": "SSCommon",
-        "projectPath": "D:\\Project\\SSSolution\\SSCommon\\SSCommon.csproj",
+        "projectPath": "D:\\Project\\BlueStarGroup\\SSCommon\\SSCommon.csproj",
         "packagesPath": "C:\\Users\\Ray\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\SSSolution\\SSCommon\\obj\\",
+        "outputPath": "D:\\Project\\BlueStarGroup\\SSCommon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -141,14 +141,14 @@
         }
       }
     },
-    "D:\\Project\\SSSolution\\SSServer\\SSServer.csproj": {
+    "D:\\Project\\BlueStarGroup\\SSServer\\SSServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\SSSolution\\SSServer\\SSServer.csproj",
+        "projectUniqueName": "D:\\Project\\BlueStarGroup\\SSServer\\SSServer.csproj",
         "projectName": "SSServer",
-        "projectPath": "D:\\Project\\SSSolution\\SSServer\\SSServer.csproj",
+        "projectPath": "D:\\Project\\BlueStarGroup\\SSServer\\SSServer.csproj",
         "packagesPath": "C:\\Users\\Ray\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\SSSolution\\SSServer\\obj\\",
+        "outputPath": "D:\\Project\\BlueStarGroup\\SSServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -169,8 +169,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Project\\SSSolution\\SSCommon\\SSCommon.csproj": {
-                "projectPath": "D:\\Project\\SSSolution\\SSCommon\\SSCommon.csproj"
+              "D:\\Project\\BlueStarGroup\\SSCommon\\SSCommon.csproj": {
+                "projectPath": "D:\\Project\\BlueStarGroup\\SSCommon\\SSCommon.csproj"
               }
             }
           }

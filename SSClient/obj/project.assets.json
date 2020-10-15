@@ -6244,11 +6244,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\SSSolution\\SSClient\\SSClient.csproj",
+      "projectUniqueName": "D:\\Project\\BlueStarGroup\\SSClient\\SSClient.csproj",
       "projectName": "SSClient",
-      "projectPath": "D:\\Project\\SSSolution\\SSClient\\SSClient.csproj",
+      "projectPath": "D:\\Project\\BlueStarGroup\\SSClient\\SSClient.csproj",
       "packagesPath": "C:\\Users\\Ray\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\SSSolution\\SSClient\\obj\\",
+      "outputPath": "D:\\Project\\BlueStarGroup\\SSClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6269,11 +6269,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Project\\SSSolution\\SSCommon\\SSCommon.csproj": {
-              "projectPath": "D:\\Project\\SSSolution\\SSCommon\\SSCommon.csproj"
+            "D:\\Project\\BlueStarGroup\\SSCommon\\SSCommon.csproj": {
+              "projectPath": "D:\\Project\\BlueStarGroup\\SSCommon\\SSCommon.csproj"
             },
-            "D:\\Project\\SSSolution\\SSServer\\SSServer.csproj": {
-              "projectPath": "D:\\Project\\SSSolution\\SSServer\\SSServer.csproj"
+            "D:\\Project\\BlueStarGroup\\SSServer\\SSServer.csproj": {
+              "projectPath": "D:\\Project\\BlueStarGroup\\SSServer\\SSServer.csproj"
             }
           }
         }
