@@ -7,17 +7,20 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Views\Login.xaml.cs">
+    <Compile Update="UserControl\UCReportMenu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\Main.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Views\Rooms.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Update="Views\Login.xaml.cs" />
+    <Compile Update="Views\Main.xaml.cs" />
+    <Compile Update="Views\Rooms.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Page Update="UserControl\UCScreenMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControl\UCReportMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\Login.xaml">
       <SubType>Designer</SubType>
     </Page>

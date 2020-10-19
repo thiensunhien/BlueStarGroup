@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="SSClient.UserControl.UCScreenMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SSClient.UserControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="400">
+    <Grid Background="AliceBlue">
+        <StackPanel>
+            <Label Content="Danh mục nhóm Tài khoản"/>
+            <Label Content="Danh mục Tài khoản" />
+            <Label Content="Danh mục Công ty" />
+            <Label Content="Danh mục Khách hàng" />
+            <Label Content="Danh mục loại Hàng hóa" />
+            <Label Content="Danh mục Hàng hóa" />
+            <Label Content="Sổ cái" />
+            <Label Content="Chứng từ" />
+            <Label Content="Hóa đơn" />
+        </StackPanel>
+    </Grid>
+</UserControl>

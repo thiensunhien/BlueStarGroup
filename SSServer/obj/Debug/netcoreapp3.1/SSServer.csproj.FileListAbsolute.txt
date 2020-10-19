@@ -62,3 +62,14 @@ D:\Project\SSSolution\SSServer\obj\Debug\netcoreapp3.1\SSServer.AssemblyInfo.cs
 D:\Project\SSSolution\SSServer\obj\Debug\netcoreapp3.1\SSServer.csproj.CopyComplete
 D:\Project\SSSolution\SSServer\obj\Debug\netcoreapp3.1\SSServer.dll
 D:\Project\SSSolution\SSServer\obj\Debug\netcoreapp3.1\SSServer.pdb
+D:\Project\BlueStarGroup\SSServer\obj\Debug\netcoreapp3.1\SSServer.csprojAssemblyReference.cache
+D:\Project\BlueStarGroup\SSServer\obj\Debug\netcoreapp3.1\SSServer.AssemblyInfoInputs.cache
+D:\Project\BlueStarGroup\SSServer\obj\Debug\netcoreapp3.1\SSServer.AssemblyInfo.cs
+D:\Project\BlueStarGroup\SSServer\bin\Debug\netcoreapp3.1\SSServer.deps.json
+D:\Project\BlueStarGroup\SSServer\bin\Debug\netcoreapp3.1\SSServer.dll
+D:\Project\BlueStarGroup\SSServer\bin\Debug\netcoreapp3.1\SSServer.pdb
+D:\Project\BlueStarGroup\SSServer\bin\Debug\netcoreapp3.1\SSCommon.dll
+D:\Project\BlueStarGroup\SSServer\bin\Debug\netcoreapp3.1\SSCommon.pdb
+D:\Project\BlueStarGroup\SSServer\obj\Debug\netcoreapp3.1\SSServer.csproj.CopyComplete
+D:\Project\BlueStarGroup\SSServer\obj\Debug\netcoreapp3.1\SSServer.dll
+D:\Project\BlueStarGroup\SSServer\obj\Debug\netcoreapp3.1\SSServer.pdb

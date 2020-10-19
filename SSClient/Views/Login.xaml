@@ -51,7 +51,7 @@
                          Margin="5,5"
                          Grid.Row="1"
                          PasswordChar="*" 
-                         Password="Ab1234" VerticalContentAlignment="Center"/>
+                         Password="Ab123456" VerticalContentAlignment="Center"/>
             <StackPanel Grid.Column="1"
                         Grid.Row="2"
                         Orientation="Horizontal"

@@ -19,3 +19,11 @@ D:\Project\SSSolution\SSCommon\obj\Debug\netcoreapp3.1\SSCommon.AssemblyInfoInpu
 D:\Project\SSSolution\SSCommon\obj\Debug\netcoreapp3.1\SSCommon.AssemblyInfo.cs
 D:\Project\SSSolution\SSCommon\obj\Debug\netcoreapp3.1\SSCommon.dll
 D:\Project\SSSolution\SSCommon\obj\Debug\netcoreapp3.1\SSCommon.pdb
+D:\Project\BlueStarGroup\SSCommon\bin\Debug\netcoreapp3.1\SSCommon.deps.json
+D:\Project\BlueStarGroup\SSCommon\bin\Debug\netcoreapp3.1\SSCommon.dll
+D:\Project\BlueStarGroup\SSCommon\bin\Debug\netcoreapp3.1\SSCommon.pdb
+D:\Project\BlueStarGroup\SSCommon\obj\Debug\netcoreapp3.1\SSCommon.csprojAssemblyReference.cache
+D:\Project\BlueStarGroup\SSCommon\obj\Debug\netcoreapp3.1\SSCommon.AssemblyInfoInputs.cache
+D:\Project\BlueStarGroup\SSCommon\obj\Debug\netcoreapp3.1\SSCommon.AssemblyInfo.cs
+D:\Project\BlueStarGroup\SSCommon\obj\Debug\netcoreapp3.1\SSCommon.dll
+D:\Project\BlueStarGroup\SSCommon\obj\Debug\netcoreapp3.1\SSCommon.pdb

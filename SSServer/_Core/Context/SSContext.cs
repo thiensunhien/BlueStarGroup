@@ -1,29 +1,35 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using SSCommon.Models;
-using SSServer._Core.Base;
+using SSCommon.Utility;
+using SSServer._Core.Const;
 using System.Configuration;
 
 namespace SSServer._Core.Context
 {
     public class SSContext : DbContext
     {
-        public SSContext(DbContextOptions options) : base(options)
+        public SSContext()
         {
 
         }
 
+        public static readonly ILoggerFactory _loggerFactory = LoggerFactory.Create(builder => builder.AddConsole());
+       
         #region DbSet
 
-        public DbSet<RoomList> Rooms { get; set; }
-        public DbSet<Users> Users { get; set; }
+        public DbSet<UserInfo> Users { get; set; }
 
         #endregion DbSet
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string connectString = ConfigurationManager.ConnectionStrings[0].ConnectionString;
+            base.OnConfiguring(optionsBuilder);
+            string connectString = ConfigurationManager.ConnectionStrings[SSServerConst.SSContext].ConnectionString;
 
-            optionsBuilder.UseSqlServer(connectString);
+            optionsBuilder
+                .UseLoggerFactory(_loggerFactory)
+                .UseSqlServer(connectString);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using SSCommon.Constant;
 using SSCommon.Models;
 using SSServer._Core.Base;
 using SSServer._Core.Context;
@@ -18,9 +19,9 @@ namespace SSServer.DAOs
 
         private SSContext Context { get; set; }
 
-        public Users GetUserInfo(string userId)
+        public UserInfo GetUserInfo(string userId)
         {
-            return this.Context.Users.Where(o => o.UserID == userId && o.Status == "1").FirstOrDefault();
+            return this.Context.Users.Where(o => o.UserID == userId && o.Status != DATA_STATUS.Delete).FirstOrDefault();
         }
     }
 }

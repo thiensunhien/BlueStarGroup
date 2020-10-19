@@ -1,14 +1,12 @@
 ﻿using SSCommon.Models;
 using SSServer._Core.Context;
-using SSServer._Core.Factories;
 using SSServer.DAOs;
-using System.Linq;
 
 namespace SSServer.Controllers
 {
     public class LoginController
     {
-        private SSDBContextFactory Factory { get; set; }
+        //private SSDBContextFactory Factory { get; set; }
 
         private SSContext Context { get; set; }
 
@@ -16,12 +14,12 @@ namespace SSServer.Controllers
 
         public LoginController()
         {
-            Factory = new SSDBContextFactory();
-            this.Context = Factory.GetSSContext();
-            this.UserDAO = new UserDAO(Factory.GetSSContext());
+            //  Factory = new SSDBContextFactory();
+            this.Context = new SSContext();
+            this.UserDAO = new UserDAO(this.Context);
         }
 
-        public Users GetUserInfo(string userId)
+        public UserInfo GetUserInfo(string userId)
         {
             return this.UserDAO.GetUserInfo(userId);
         }

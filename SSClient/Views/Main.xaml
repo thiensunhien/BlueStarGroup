@@ -4,9 +4,70 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SSClient.Views"
-        mc:Ignorable="d" WindowState="Maximized"
-        Title="Main" Height="450" Width="800">
+        xmlns:uc="clr-namespace:SSClient.UserControl"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        Title="Main"
+        Height="450"
+        Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <!--===Menu===-->
+        <Grid Grid.Column="0"
+              x:Name="Menu_Grid"
+              Width="300">
+            <Grid.Style>
+                <Style TargetType="Grid">
+                    <Setter Property="Visibility"
+                            Value="Visible" />
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding ElementName=Arrow_Button, Path=Content}"
+                                     Value=">>">
+                            <Setter Property="Visibility"
+                                    Value="Collapsed" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Grid.Style>
+
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition Height="0" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <!--Screen Menu-->
+            <Grid Grid.Row="0"
+                  x:Name="ScreenMenu_Grid">
+                <uc:UCScreenMenu />
+            </Grid>
+
+            <!--Report Menu-->
+            <Grid Grid.Row="2"
+                  x:Name="ReportMenu_Grid">
+                <uc:UCReportMenu />
+            </Grid>
+        </Grid>
+
+        <!--===<</>>===-->
+        <Button Grid.Column="1"
+                x:Name="Arrow_Button"
+                Content="&lt;&lt;"
+                Background="White" HorizontalContentAlignment="Center"
+                Focusable="False" BorderThickness="0"
+                Click="Arrow_Button_Click">
+        </Button>
+
+        <!--===Main===-->
+        <Grid Grid.Column="3"
+              Background="LightSkyBlue"
+              x:Name="Main_Grid" >
+            
+        </Grid>
     </Grid>
 </Window>

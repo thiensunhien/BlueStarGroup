@@ -53,10 +53,6 @@
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[3.1.8, )"
-            },
-            "Microsoft.Extensions.Hosting.Abstractions": {
-              "target": "Package",
-              "version": "[3.1.8, )"
             }
           },
           "imports": [
@@ -119,6 +115,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -189,10 +191,6 @@
               "version": "[3.1.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.8, )"
-            },
-            "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
               "version": "[3.1.8, )"
             }

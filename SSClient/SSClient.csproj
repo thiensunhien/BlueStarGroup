@@ -12,12 +12,35 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.8" />
-    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.8" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SSCommon\SSCommon.csproj" />
     <ProjectReference Include="..\SSServer\SSServer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="UserControl\UCScreenMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="UserControl\UCScreenMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Views\Main.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Views\Rooms.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
 
 </Project>

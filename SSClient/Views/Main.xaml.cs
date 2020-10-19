@@ -21,5 +21,10 @@ namespace SSClient.Views
         {
             InitializeComponent();
         }
+
+        private void Arrow_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Arrow_Button.Content = Arrow_Button.Content.ToString() == "<<" ? ">>" : "<<";
+        }
     }
 }

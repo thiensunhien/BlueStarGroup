@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Project\SSSolution\SSClient\obj\Debug\netcoreapp3.1\
+D:\Project\BlueStarGroup\SSClient\obj\Debug\netcoreapp3.1\
 SSClient
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-D:\Project\SSSolution\SSClient\App.xaml
-3-969844859
+D:\Project\BlueStarGroup\SSClient\App.xaml
+5-414351142
 
-51458286197
-238667013765
-Views\Login.xaml;Views\Main.xaml;Views\Rooms.xaml;
+7-1764132564
+2351103115929
+UserControl\UCReportMenu.xaml;UserControl\UCScreenMenu.xaml;Views\Login.xaml;Views\Main.xaml;Views\Rooms.xaml;
 
 False
 

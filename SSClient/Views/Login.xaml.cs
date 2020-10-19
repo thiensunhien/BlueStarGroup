@@ -1,4 +1,5 @@
 ﻿using SSCommon.Models;
+using SSCommon.Utility;
 using SSServer.Controllers;
 using System;
 using System.Collections.Generic;
@@ -31,24 +32,33 @@ namespace SSClient.Views
 
         private void Login_Button_Click(object sender, RoutedEventArgs e)
         {
+            if (this.IsLogin())
+            {
+                new Main().Show();
+                this.Close();
+            }
+        }
+
+        private bool IsLogin()
+        {
             if (string.IsNullOrWhiteSpace(UserId_TextBox.Text) || string.IsNullOrWhiteSpace(Pass_PasswordBox.Password))
             {
                 MessageBox.Show("User or Pass is not empty!");
-                return;
+                return false;
             }
 
             LoginController login = new LoginController();
-            Users user = login.GetUserInfo(UserId_TextBox.Text);
+            UserInfo user = login.GetUserInfo(UserId_TextBox.Text);
 
-            if (user.Password == Pass_PasswordBox.Password)
+            if (user != null && user.Password == Pass_PasswordBox.Password)
             {
-                Window window = new Main();
-                window.Show();
-                this.Close();
+                CommonInfo.UserInfo = user;
+                return true;
             }
             else
             {
                 MessageBox.Show("User or Pass is invalid!");
+                return false;
             }
         }
     }

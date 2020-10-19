@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="SSClient.UserControl.UCReportMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SSClient.UserControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="400">
+    <Grid Background="AliceBlue">
+        <StackPanel>
+            <Label Content="Báo Cáo"
+                   HorizontalContentAlignment="Center" FontSize="20" />
+            <Label Content="Báo cáo tài chính"/>
+            <Label Content="Báo cáo tổng hợp" />
+        </StackPanel>
+    </Grid>
+</UserControl>

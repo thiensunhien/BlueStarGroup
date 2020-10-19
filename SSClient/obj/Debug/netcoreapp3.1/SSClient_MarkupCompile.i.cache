@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 D:\Project\BlueStarGroup\SSClient\App.xaml
-3-969844859
+5-414351142
 
-6-1059084254
-235-430899753
-Views\Login.xaml;Views\Main.xaml;Views\Rooms.xaml;
+813464281
+2351103115929
+UserControl\UCReportMenu.xaml;UserControl\UCScreenMenu.xaml;Views\Login.xaml;Views\Main.xaml;Views\Rooms.xaml;
 
 False
 

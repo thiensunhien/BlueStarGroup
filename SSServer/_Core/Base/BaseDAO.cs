@@ -13,7 +13,7 @@ namespace SSServer._Core.Base
         /// 
         /// </summary>
         /// <param name="logger"></param>
-        public BaseDAO(ILogger logger, Users userInfo)
+        public BaseDAO(ILogger logger, UserInfo userInfo)
         {
             this.Logger = logger;
             this.UserInfo = userInfo;
@@ -27,7 +27,7 @@ namespace SSServer._Core.Base
         /// <summary>
         /// 
         /// </summary>
-        protected Users UserInfo { get; set; }
+        protected UserInfo UserInfo { get; set; }
         /// <summary>
         /// 
         /// </summary>
