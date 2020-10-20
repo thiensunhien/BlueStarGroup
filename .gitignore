@@ -2,3 +2,13 @@
 /.vs/BlueStarGroup/v16/Server/sqlite3/storage.ide
 /.vs/BlueStarGroup/v16/Server/sqlite3/storage.ide-shm
 /.vs/BlueStarGroup/v16/Server/sqlite3/storage.ide-wal
+/SSClient/obj/Debug/netcoreapp3.1/App.g.i.cs
+/SSClient/obj/Debug/netcoreapp3.1/SSClient.csprojAssemblyReference.cache
+/SSClient/obj/Debug/netcoreapp3.1/SSClient_MarkupCompile.i.cache
+/SSClient/obj/Debug/netcoreapp3.1/UC/UCReportMenu.g.i.cs
+/SSClient/obj/Debug/netcoreapp3.1/UC/UCScreenMenu.g.i.cs
+/SSClient/obj/Debug/netcoreapp3.1/UserControl/UCReportMenu.g.i.cs
+/SSClient/obj/Debug/netcoreapp3.1/UserControl1.g.i.cs
+/SSClient/obj/Debug/netcoreapp3.1/Views/Main.g.i.cs
+/.vs/BlueStarGroup/v16/.suo
+/SSCommon/obj/Debug/netcoreapp3.1/SSCommon.csprojAssemblyReference.cache

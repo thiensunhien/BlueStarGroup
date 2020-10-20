@@ -20,13 +20,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="UserControl\UCScreenMenu.xaml.cs">
+    <Compile Update="UC\UCScreenMenu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <Page Update="UserControl\UCScreenMenu.xaml">
+    <Page Update="UC\UCScreenMenu.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Login.xaml">

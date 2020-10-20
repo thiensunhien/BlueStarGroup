@@ -11,12 +11,12 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SSClient.UserControl
+namespace SSClient.UC
 {
     /// <summary>
     /// Interaction logic for UCScreenMenu.xaml
     /// </summary>
-    public partial class UCReportMenu
+    public partial class UCReportMenu : UserControl
     {
         public UCReportMenu()
         {
